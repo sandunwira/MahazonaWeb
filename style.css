@@ -3,128 +3,128 @@
 }
 
 *{
-    margin: 0;
-    padding:0;
-    font-family: 'Viga', sans-serif;
+  margin: 0;
+  padding:0;
+  font-family: 'Viga', sans-serif;
 }
 
 .header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(31,4,4,0.7), rgba(0,0,0,0.8)), url(images/banner.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(31,4,4,0.7), rgba(0,0,0,0.8)), url(images/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav img{
-    width: 180px;
+  width: 180px;
 }
 
 .nav-links{
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
 
 .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
 }
 
 .nav-links ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #ca0000;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ca0000;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
 
 .nav-links ul li:hover::after{
-    width: 100%
+  width: 100%
 }
 
 .text-box{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
 }
 
 .text-box h1{
-    font-size: 62px;
+  font-size: 62px;
 }
 
 .text-box p{
-    margin: 10px 0 40px;
-    font-size: 30px;
-    color: #fff;
+  margin: 10px 0 40px;
+  font-size: 30px;
+  color: #fff;
 }
 
 /*---------------Button 2---------------*/
 
 .hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 25px;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
 }
 
 .hero-btn:hover{
-    color: #ca0000;
-    border: 1px solid #ffffff;
-    background: #ffffff;
-    transition: 0.5s;
+  color: #ca0000;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  transition: 0.5s;
 }
 
 .h1{
-    font-size: 36px;
-    font-weight: 600;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .p{
-    color: #777;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
 }
 
 .row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
 }
 
 
@@ -132,103 +132,103 @@ h3{
 
 
 .h-projects{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .h-projects a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .h-projects-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
 }
 
 .h-projects-col img{
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .layer{
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
 }
 
 .layer:hover{
-    background: rgba(202,0,0,0.4);
+  background: rgba(202,0,0,0.4);
 }
 
 .layer h3{
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
+  bottom: 49%;
+  opacity: 1;
 }
 
 .layer .hero-btn{
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .layer:hover .hero-btn{
-    bottom: 40%;
-    opacity: 1;
+  bottom: 40%;
+  opacity: 1;
 }
 
 /*--------------------------Donate Section--------------------------*/
 
 .h-donate{
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/donate.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/donate.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
 }
 
 .h-donate h1{
-    font-size: 36px;
-    color: #fff;
-    margin-bottom: 40px;
-    padding: 0;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
 }
 
 /*--------------------------Footer Section--------------------------*/
 
 .footer{
-    color: #fff;
-    background-color: #000000;
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
+  color: #fff;
+  background-color: #000000;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
 }
 
 
@@ -236,80 +236,80 @@ h3{
 
 
 .sub-header{
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(31,4,4,0.7), rgba(0,0,0,0.8)), url(images/subheader.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(31,4,4,0.7), rgba(0,0,0,0.8)), url(images/subheader.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
 }
 
 .sub-header h1{
-    margin-top: 100px;
-    font-size: 36px;
+  margin-top: 100px;
+  font-size: 36px;
 }
 
 .about{
-    width: 80%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about-col{
-    flex-basis: 48%;
-    padding: 10px 2px;
+  flex-basis: 48%;
+  padding: 10px 2px;
 }
 
 .about-col img{
-    width: 100%;
-    border-radius: 25px;
+  width: 100%;
+  border-radius: 25px;
 }
 
 .about-col h1{
-    padding-top: 0;
-    padding-bottom: 15px;
+  padding-top: 0;
+  padding-bottom: 15px;
 }
 
 .about-col h3{
-    text-align: left;
+  text-align: left;
 }
 
 .about-col iframe{
-    height: 275px;
-    width: 1000px;
-    padding-right: 50px;
+  height: 275px;
+  width: 1000px;
+  padding-right: 50px;
 }
 
 .red-btn{
-    border: 1px solid #ca0000;
-    background: transparent;
-    color: #ca0000;
+  border: 1px solid #ca0000;
+  background: transparent;
+  color: #ca0000;
 }
 
 .red-btn:hover{
-    color: #fff;
+  color: #fff;
 }
 
 .news-form{
-    padding: 15px 2px;
+  padding: 15px 2px;
 }
 
 .news-box{
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .news-box h3{
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .news-email{
-    border: 1px solid #ca0000;
-    padding: 12px 34px;
-    font-size: 13px;
-    border-radius: 25px;
+  border: 1px solid #ca0000;
+  padding: 12px 34px;
+  font-size: 13px;
+  border-radius: 25px;
 }
 
 
@@ -317,24 +317,24 @@ h3{
 
 
 .donate-form{
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .donate-box h2{
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .donate-text{
-    border: 1px solid #ca0000;
-    padding: 12px 34px;
-    font-size: 13px;
-    border-radius: 25px;
+  border: 1px solid #ca0000;
+  padding: 12px 34px;
+  font-size: 13px;
+  border-radius: 25px;
 }
 
 .donate-agreement{
-    font-size: 10px;
+  font-size: 10px;
 }
 
 
@@ -342,23 +342,40 @@ h3{
 
 
 .projects{
-    width: 80%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 100px;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 .projects-col{
-    flex-basis: 48%;
-    padding: 10px 2px;
+  flex-basis: 48%;
+  padding: 10px 2px;
 }
 
 .projects-col img{
-    width: 100%;
-    border-radius: 25px;
+  width: 100%;
+  border-radius: 25px;
 }
 
 .projects-col h1{
-    padding-top: 0;
-    padding-bottom: 15px;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+/*Social Media Icons*/
+
+.sm-icons{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sm-icons .icon{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.sm-icons .icon:hover{
+	filter: invert(7%) sepia(100%) saturate(5797%) hue-rotate(1deg) brightness(105%) contrast(108%);
+	transition: 0.5s;
 }
