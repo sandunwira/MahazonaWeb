@@ -80,7 +80,7 @@ nav img{
     color: #fff;
 }
 
-/*---------------Button 1---------------*/
+/*---------------Button 2---------------*/
 
 .hero-btn{
     display: inline-block;
@@ -96,27 +96,6 @@ nav img{
 }
 
 .hero-btn:hover{
-    border: 1px solid #ca0000;
-    background: #ca0000;
-    transition: 0.5s;
-}
-
-/*---------------Button 2---------------*/
-
-.hero-btn2{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 25px;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-btn2:hover{
     color: #ca0000;
     border: 1px solid #ffffff;
     background: #ffffff;
@@ -208,7 +187,7 @@ h3{
     opacity: 1;
 }
 
-.layer .hero-btn2{
+.layer .hero-btn{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -217,7 +196,7 @@ h3{
     transition: 0.5s;
 }
 
-.layer:hover .hero-btn2{
+.layer:hover .hero-btn{
     bottom: 40%;
     opacity: 1;
 }
