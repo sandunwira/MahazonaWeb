@@ -17,81 +17,81 @@ a{
 
 /*Smooth Scrolling Option--------------------------------------------------------*/
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /*Header Section Start-----------------------------------------------------------*/
 
 .hero{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(#1f040400, #1f040400, #202020), url(images/banner.png);
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#1f040400, #1f040400, #202020), url(images/banner.png);
+  background-size: cover;
 }
 
 .hero-content{
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
 }
 .hero-content h1{
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 90px;
-    text-transform: inherit;
-    width: 100%;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 100%;
 }
 .hero-content h1 span{
-    color: #e73636;
+  color: #e73636;
 }
 .hero-content p{
-    width: 100%;
-    color: #ffffff;
-    margin-bottom: 60px;
-    font-size: 25px;
+  width: 100%;
+  color: #ffffff;
+  margin-bottom: 60px;
+  font-size: 25px;
 }
 
 .logo{
-    max-height: 22px;
+  max-height: 22px;
 }
 
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
 }
 
 nav ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
 }
 
 nav ul li a{
-    color: #ffffff;
-    position: relative;
-    padding: 5px 0;
+  color: #ffffff;
+  position: relative;
+  padding: 5px 0;
 }
 nav ul li a:hover{
-    color: #ffffff;
+  color: #ffffff;
 }
 nav ul li a:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background: #ffffff;
-    transition: .3s;
-    bottom: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #ffffff;
+  transition: .3s;
+  bottom: 0;
 }
 nav ul li a:hover:after{
-    width: 100%;
+  width: 100%;
 }
 
 /*-------------------------------------------------------------Header Section End*/
@@ -100,23 +100,23 @@ nav ul li a:hover:after{
 /*Button Start-------------------------------------------------------------------*/
 
 .btn{
-    color: #ffffff;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 16px 25px;
-    border-radius: 500px;
-    display: inline-block;
-    font-weight: 500;
-    transition: all .4s ease-in-out;
-    background-size: 152% 100%;
-    background: transparent;
-    border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 25px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all .4s ease-in-out;
+  background-size: 152% 100%;
+  background: transparent;
+  border: 2px solid #ffffff;
 }
 .btn:hover{
-    background: #e10505;
-    border-color: #e10505;
-    color: #ffffff;
+  background: #e10505;
+  border-color: #e10505;
+  color: #ffffff;
 }
 
 /*---------------------------------------------------------------------Button End*/
@@ -125,27 +125,27 @@ nav ul li a:hover:after{
 /*Projects Section Start---------------------------------------------------------*/
 
 .projects{
-    width: 100%;
-    background: #202020;
-    background-size: cover;
-    color: #ffffff;
+  width: 100%;
+  background: #202020;
+  background-size: cover;
+  color: #ffffff;
 }
 .projects h1{
-    padding: 30px 5px;
+  padding: 30px 5px;
 }
 .projects img{
-    width: 450px;
-    border-radius: 10px;
-    margin-right: 15px;
+  width: 450px;
+  border-radius: 10px;
+  margin-right: 15px;
 }
 
 .projects-text{
-    padding: 5px 40px;
+  padding: 5px 40px;
 }
 
 .projects-text div{
-    display: inline-block;
-    padding-bottom: 25px;
+  display: inline-block;
+  padding-bottom: 25px;
 }
 
 /*-----------------------------------------------------------Projects Section End*/
@@ -154,29 +154,29 @@ nav ul li a:hover:after{
 /*Socials Section Start----------------------------------------------------------*/
 
 .socials{
-    padding: 20px 0px;
-    background: #202020;
+  padding: 20px 0px;
+  background: #202020;
 }
 
 .sm-title{
-    width: 100%;
-    background-size: cover;
-    color: #ffffff;
-    padding: 20px 0px;
+  width: 100%;
+  background-size: cover;
+  color: #ffffff;
+  padding: 20px 0px;
 }
 
 .sm-icons{
-    width: 100%;
-    background-size: cover;
+  width: 100%;
+  background-size: cover;
 }
 .sm-icons img{
-    width: 40px;
-    filter: invert(99%) sepia(3%) saturate(89%) hue-rotate(164deg) brightness(114%) contrast(100%);
-    margin: 5px;
-    padding-bottom: 25px;
+  width: 40px;
+  filter: invert(99%) sepia(3%) saturate(89%) hue-rotate(164deg) brightness(114%) contrast(100%);
+  margin: 5px;
+  padding-bottom: 25px;
 }
 .sm-icons img:hover{
-    filter: invert(18%) sepia(79%) saturate(5203%) hue-rotate(349deg) brightness(91%) contrast(96%);
+  filter: invert(18%) sepia(79%) saturate(5203%) hue-rotate(349deg) brightness(91%) contrast(96%);
 }
 
 /*------------------------------------------------------------Socials Section End*/
@@ -185,12 +185,12 @@ nav ul li a:hover:after{
 /*Footer Secttion Start----------------------------------------------------------*/
 
 .footer{
-    width: 100%;
-    background: #111111;
-    background-size: cover;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 40px;
+  width: 100%;
+  background: #111111;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 40px;
 }
 
 /*-------------------------------------------------------------Footer Section End*/
