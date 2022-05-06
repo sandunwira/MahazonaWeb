@@ -3,5 +3,5 @@ _This is the first website that I hosted on Replit._
 _Basically a landing page now :smile:._
 
 _Check out links in here_
-- _[Replit](https://replit.com/@SandunWira/MahazonaWeb)._
-- _[Website](https://mahazona.live)
+- _[Replit](https://replit.com/@SandunWira/MahazonaWeb)_
+- _[Website](https://mahazona.live)_
