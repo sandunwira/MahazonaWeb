@@ -57,7 +57,7 @@ html{
 .hero-content p{
   width: 100%;
   color: #ffffff;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   font-size: 25px;
 }
 
@@ -65,11 +65,13 @@ html{
   max-height: 22px;
 }
 
+/*Hidden Navbar*/
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 100px;
+	visibility: hidden;
 }
 
 nav ul li{
@@ -202,3 +204,28 @@ nav ul li a:hover:after{
 
 /*------------------------------------------------Footer Section End (Hidden Now)*/
 
+
+/*Mobile Friendly Compatibility Start--------------------------------------------*/
+@media all and (max-width: 500px) {
+	.hero-content h1{
+  	font-size: 35px;
+  	font-weight: 900;
+  	line-height: 40px;
+	}
+	
+	.hero-content p{
+  	font-size: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.sm-icons img{
+		width: 30px;
+	}
+
+	nav{
+		position: sticky;
+		top: 0%;
+	}
+}
+/*----------------------------------------------Mobile Friendly Compatibility End*/
